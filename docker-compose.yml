@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      # Dataset should use relative path in container
+      - DATASET_PATH=/app/data/dataset.json
+      # Connect to host's Ollama or other local LLM instance if configured for local provider
+      - LLM_PROVIDER=local
+      - LLM_MODEL=llama3.2:1b
+      - LOCAL_LLM_BASE_URL=http://host.docker.internal:11434/v1
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+
+  web:
+    image: python:3.11-alpine
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app/frontend
+    command: python -m http.server 3000 --directory /app/frontend

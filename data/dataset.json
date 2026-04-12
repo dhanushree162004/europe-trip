@@ -1,0 +1,1860 @@
+[
+    {
+        "id": 1,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Eiffel Tower: Iconic landmark with breathtaking views. Located in Paris, France.",
+        "metadata": {
+            "cost": 25,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Eiffel Tower",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 2,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Louvre Museum: World's largest art museum. Located in Paris, France.",
+        "metadata": {
+            "cost": 17,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Louvre Museum",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 3,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Mont Saint-Michel: Stunning island commune. Located in Normandy, France.",
+        "metadata": {
+            "cost": 11,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Mont Saint-Michel",
+            "city": "Normandy"
+        }
+    },
+    {
+        "id": 4,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Palace of Versailles: Gilded former royal residence. Located in Versailles, France.",
+        "metadata": {
+            "cost": 20,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Palace of Versailles",
+            "city": "Versailles"
+        }
+    },
+    {
+        "id": 5,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Cote d'Azur Beaches: Beautiful public beaches along the Riviera. Located in Nice, France.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "budget",
+            "name": "Cote d'Azur Beaches",
+            "city": "Nice"
+        }
+    },
+    {
+        "id": 6,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Sainte-Chapelle: Stunning gothic chapel with stained glass. Located in Paris, France.",
+        "metadata": {
+            "cost": 11,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Sainte-Chapelle",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 7,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Musee d'Orsay: Impressionist masterpieces. Located in Paris, France.",
+        "metadata": {
+            "cost": 16,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Musee d'Orsay",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 8,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Arc de Triomphe: Historic monument at Champs-Élysées. Located in Paris, France.",
+        "metadata": {
+            "cost": 13,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Arc de Triomphe",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 9,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Seine River Cruise: Relaxing boat tour through Paris. Located in Paris, France.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Seine River Cruise",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 10,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Verdon Gorge: Deep river canyon for hiking. Located in Provence, France.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Verdon Gorge",
+            "city": "Provence"
+        }
+    },
+    {
+        "id": 11,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Lyon Old Town: Medieval and Renaissance architecture. Located in Lyon, France.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Lyon Old Town",
+            "city": "Lyon"
+        }
+    },
+    {
+        "id": 12,
+        "country": "France",
+        "category": "Attraction",
+        "content": "Mont Blanc: Highest mountain in the Alps. Located in Chamonix, France.",
+        "metadata": {
+            "cost": 50,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Mont Blanc",
+            "city": "Chamonix"
+        }
+    },
+    {
+        "id": 13,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Colosseum: Epic ancient amphitheater. Located in Rome, Italy.",
+        "metadata": {
+            "cost": 16,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Colosseum",
+            "city": "Rome"
+        }
+    },
+    {
+        "id": 14,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Pantheon: Best-preserved ancient Roman temple. Located in Rome, Italy.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Pantheon",
+            "city": "Rome"
+        }
+    },
+    {
+        "id": 15,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Venice Canals: Romantic gondola rides. Located in Venice, Italy.",
+        "metadata": {
+            "cost": 80,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Venice Canals",
+            "city": "Venice"
+        }
+    },
+    {
+        "id": 16,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Duomo di Milano: Stunning gothic cathedral. Located in Milan, Italy.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Duomo di Milano",
+            "city": "Milan"
+        }
+    },
+    {
+        "id": 17,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Cinque Terre Hike: Scenic coastal trails. Located in Cinque Terre, Italy.",
+        "metadata": {
+            "cost": 8,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Cinque Terre Hike",
+            "city": "Cinque Terre"
+        }
+    },
+    {
+        "id": 18,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Uffizi Gallery: Renaissance art masterpieces. Located in Florence, Italy.",
+        "metadata": {
+            "cost": 20,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Uffizi Gallery",
+            "city": "Florence"
+        }
+    },
+    {
+        "id": 19,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Pompeii Ruins: Ancient Roman city ruins. Located in Naples, Italy.",
+        "metadata": {
+            "cost": 18,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Pompeii Ruins",
+            "city": "Naples"
+        }
+    },
+    {
+        "id": 20,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Amalfi Coast: Dramatic coastal drive. Located in Amalfi, Italy.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Amalfi Coast",
+            "city": "Amalfi"
+        }
+    },
+    {
+        "id": 21,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Lake Como: Sophisticated lake retreat. Located in Como, Italy.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Lake Como",
+            "city": "Como"
+        }
+    },
+    {
+        "id": 22,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Vatican Museums: Sistine Chapel and more. Located in Vatican City, Italy.",
+        "metadata": {
+            "cost": 17,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Vatican Museums",
+            "city": "Vatican City"
+        }
+    },
+    {
+        "id": 23,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Trevi Fountain: Magical Baroque fountain. Located in Rome, Italy.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "budget",
+            "name": "Trevi Fountain",
+            "city": "Rome"
+        }
+    },
+    {
+        "id": 24,
+        "country": "Italy",
+        "category": "Attraction",
+        "content": "Leaning Tower: Famous tilted bell tower. Located in Pisa, Italy.",
+        "metadata": {
+            "cost": 18,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Leaning Tower",
+            "city": "Pisa"
+        }
+    },
+    {
+        "id": 25,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Neuschwanstein Castle: Fairytale castle. Located in Fussen, Germany.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Neuschwanstein Castle",
+            "city": "Fussen"
+        }
+    },
+    {
+        "id": 26,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Berlin Wall Memorial: History of divided Germany. Located in Berlin, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Berlin Wall Memorial",
+            "city": "Berlin"
+        }
+    },
+    {
+        "id": 27,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Brandenburg Gate: Symbol of German reunification. Located in Berlin, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Brandenburg Gate",
+            "city": "Berlin"
+        }
+    },
+    {
+        "id": 28,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Black Forest: Dense woods and villages. Located in Baden-Baden, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Black Forest",
+            "city": "Baden-Baden"
+        }
+    },
+    {
+        "id": 29,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Oktoberfest Munich: World-renowned beer festival. Located in Munich, Germany.",
+        "metadata": {
+            "cost": 100,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Oktoberfest Munich",
+            "city": "Munich"
+        }
+    },
+    {
+        "id": 30,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Miniatur Wunderland: Largest model railway. Located in Hamburg, Germany.",
+        "metadata": {
+            "cost": 20,
+            "duration": 3,
+            "type": "budget",
+            "name": "Miniatur Wunderland",
+            "city": "Hamburg"
+        }
+    },
+    {
+        "id": 31,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Cologne Cathedral: Majestic gothic cathedral. Located in Cologne, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Cologne Cathedral",
+            "city": "Cologne"
+        }
+    },
+    {
+        "id": 32,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Europa-Park: Huge theme park. Located in Rust, Germany.",
+        "metadata": {
+            "cost": 55,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Europa-Park",
+            "city": "Rust"
+        }
+    },
+    {
+        "id": 33,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Marienplatz: Central square with Glockenspiel. Located in Munich, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Marienplatz",
+            "city": "Munich"
+        }
+    },
+    {
+        "id": 34,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Saxon Switzerland: Sandstone formations for hiking. Located in Dresden, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Saxon Switzerland",
+            "city": "Dresden"
+        }
+    },
+    {
+        "id": 35,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Rhine Valley Cruise: Castles and vineyards. Located in Koblenz, Germany.",
+        "metadata": {
+            "cost": 25,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Rhine Valley Cruise",
+            "city": "Koblenz"
+        }
+    },
+    {
+        "id": 36,
+        "country": "Germany",
+        "category": "Attraction",
+        "content": "Checkpoint Charlie: Historic border crossing. Located in Berlin, Germany.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Checkpoint Charlie",
+            "city": "Berlin"
+        }
+    },
+    {
+        "id": 37,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Sagrada Familia: Gaudi's masterpiece. Located in Barcelona, Spain.",
+        "metadata": {
+            "cost": 26,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Sagrada Familia",
+            "city": "Barcelona"
+        }
+    },
+    {
+        "id": 38,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Park Guell: Playful mosaic park. Located in Barcelona, Spain.",
+        "metadata": {
+            "cost": 10,
+            "duration": 3,
+            "type": "budget",
+            "name": "Park Guell",
+            "city": "Barcelona"
+        }
+    },
+    {
+        "id": 39,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Alhambra: Moorish palace and fortress. Located in Granada, Spain.",
+        "metadata": {
+            "cost": 14,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Alhambra",
+            "city": "Granada"
+        }
+    },
+    {
+        "id": 40,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Prado Museum: Main national art museum. Located in Madrid, Spain.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Prado Museum",
+            "city": "Madrid"
+        }
+    },
+    {
+        "id": 41,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "La Tomatina: Tomato throwing festival. Located in Valencia, Spain.",
+        "metadata": {
+            "cost": 12,
+            "duration": 3,
+            "type": "adventure",
+            "name": "La Tomatina",
+            "city": "Valencia"
+        }
+    },
+    {
+        "id": 42,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Ibiza Nightlife: Premier music clubs. Located in Ibiza, Spain.",
+        "metadata": {
+            "cost": 50,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Ibiza Nightlife",
+            "city": "Ibiza"
+        }
+    },
+    {
+        "id": 43,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Seville Cathedral: Largest gothic cathedral. Located in Seville, Spain.",
+        "metadata": {
+            "cost": 12,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Seville Cathedral",
+            "city": "Seville"
+        }
+    },
+    {
+        "id": 44,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Running of the Bulls: Historic tradition. Located in Pamplona, Spain.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Running of the Bulls",
+            "city": "Pamplona"
+        }
+    },
+    {
+        "id": 45,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Costa del Sol: Sunny beaches. Located in Malaga, Spain.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "budget",
+            "name": "Costa del Sol",
+            "city": "Malaga"
+        }
+    },
+    {
+        "id": 46,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Royal Palace of Madrid: Official royal residence. Located in Madrid, Spain.",
+        "metadata": {
+            "cost": 13,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Royal Palace of Madrid",
+            "city": "Madrid"
+        }
+    },
+    {
+        "id": 47,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Basilica del Pilar: Grand baroque cathedral. Located in Zaragoza, Spain.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Basilica del Pilar",
+            "city": "Zaragoza"
+        }
+    },
+    {
+        "id": 48,
+        "country": "Spain",
+        "category": "Attraction",
+        "content": "Montserrat Monastery: Mountain retreat. Located in Barcelona, Spain.",
+        "metadata": {
+            "cost": 10,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Montserrat Monastery",
+            "city": "Barcelona"
+        }
+    },
+    {
+        "id": 49,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Rijksmuseum: Dutch national museum. Located in Amsterdam, Netherlands.",
+        "metadata": {
+            "cost": 20,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Rijksmuseum",
+            "city": "Amsterdam"
+        }
+    },
+    {
+        "id": 50,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Anne Frank House: Hiding place museum. Located in Amsterdam, Netherlands.",
+        "metadata": {
+            "cost": 16,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Anne Frank House",
+            "city": "Amsterdam"
+        }
+    },
+    {
+        "id": 51,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Keukenhof Gardens: Tulip park. Located in Lisse, Netherlands.",
+        "metadata": {
+            "cost": 19,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Keukenhof Gardens",
+            "city": "Lisse"
+        }
+    },
+    {
+        "id": 52,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Kinderdijk Windmills: Historic windmills. Located in Rotterdam, Netherlands.",
+        "metadata": {
+            "cost": 16,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Kinderdijk Windmills",
+            "city": "Rotterdam"
+        }
+    },
+    {
+        "id": 53,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Canal Cruise Amsterdam: Historic city from water. Located in Amsterdam, Netherlands.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "budget",
+            "name": "Canal Cruise Amsterdam",
+            "city": "Amsterdam"
+        }
+    },
+    {
+        "id": 54,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Van Gogh Museum: Vincent van Gogh works. Located in Amsterdam, Netherlands.",
+        "metadata": {
+            "cost": 20,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Van Gogh Museum",
+            "city": "Amsterdam"
+        }
+    },
+    {
+        "id": 55,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Efteling: Fairytale park. Located in Kaatsheuvel, Netherlands.",
+        "metadata": {
+            "cost": 45,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Efteling",
+            "city": "Kaatsheuvel"
+        }
+    },
+    {
+        "id": 56,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Madurodam: Miniature park. Located in The Hague, Netherlands.",
+        "metadata": {
+            "cost": 18,
+            "duration": 3,
+            "type": "budget",
+            "name": "Madurodam",
+            "city": "The Hague"
+        }
+    },
+    {
+        "id": 57,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Zaanse Schans: Historic windmills. Located in Zaandam, Netherlands.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Zaanse Schans",
+            "city": "Zaandam"
+        }
+    },
+    {
+        "id": 58,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Giethoorn Village: Car-free village. Located in Giethoorn, Netherlands.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "budget",
+            "name": "Giethoorn Village",
+            "city": "Giethoorn"
+        }
+    },
+    {
+        "id": 59,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Hoge Veluwe: Forest with bikes. Located in Otterlo, Netherlands.",
+        "metadata": {
+            "cost": 11,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Hoge Veluwe",
+            "city": "Otterlo"
+        }
+    },
+    {
+        "id": 60,
+        "country": "Netherlands",
+        "category": "Attraction",
+        "content": "Peace Palace: International Court. Located in The Hague, Netherlands.",
+        "metadata": {
+            "cost": 10,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Peace Palace",
+            "city": "The Hague"
+        }
+    },
+    {
+        "id": 61,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Jungfraujoch: Top of Europe railway. Located in Interlaken, Switzerland.",
+        "metadata": {
+            "cost": 200,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Jungfraujoch",
+            "city": "Interlaken"
+        }
+    },
+    {
+        "id": 62,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Mount Pilatus: Cogwheel railway. Located in Lucerne, Switzerland.",
+        "metadata": {
+            "cost": 72,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Mount Pilatus",
+            "city": "Lucerne"
+        }
+    },
+    {
+        "id": 63,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Lake Geneva: Sophisticated lakefront. Located in Geneva, Switzerland.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Lake Geneva",
+            "city": "Geneva"
+        }
+    },
+    {
+        "id": 64,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Chapel Bridge: Historic wooden bridge. Located in Lucerne, Switzerland.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Chapel Bridge",
+            "city": "Lucerne"
+        }
+    },
+    {
+        "id": 65,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Matterhorn Zermatt: Iconic mountain. Located in Zermatt, Switzerland.",
+        "metadata": {
+            "cost": 100,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Matterhorn Zermatt",
+            "city": "Zermatt"
+        }
+    },
+    {
+        "id": 66,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Rhine Falls: Powerful waterfall. Located in Schaffhausen, Switzerland.",
+        "metadata": {
+            "cost": 5,
+            "duration": 3,
+            "type": "budget",
+            "name": "Rhine Falls",
+            "city": "Schaffhausen"
+        }
+    },
+    {
+        "id": 67,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Interlaken: Paragliding hub. Located in Interlaken, Switzerland.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Interlaken",
+            "city": "Interlaken"
+        }
+    },
+    {
+        "id": 68,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "St. Moritz: Alpine resort town. Located in St. Moritz, Switzerland.",
+        "metadata": {
+            "cost": 150,
+            "duration": 3,
+            "type": "luxury",
+            "name": "St. Moritz",
+            "city": "St. Moritz"
+        }
+    },
+    {
+        "id": 69,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Swiss National Museum: History of Switzerland. Located in Zurich, Switzerland.",
+        "metadata": {
+            "cost": 10,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Swiss National Museum",
+            "city": "Zurich"
+        }
+    },
+    {
+        "id": 70,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Chillon Castle: Medieval island castle. Located in Montreux, Switzerland.",
+        "metadata": {
+            "cost": 15,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Chillon Castle",
+            "city": "Montreux"
+        }
+    },
+    {
+        "id": 71,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Bern Old City: UNESCO medieval fountains. Located in Bern, Switzerland.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Bern Old City",
+            "city": "Bern"
+        }
+    },
+    {
+        "id": 72,
+        "country": "Switzerland",
+        "category": "Attraction",
+        "content": "Mount Titlis: Rotating cable car. Located in Engelberg, Switzerland.",
+        "metadata": {
+            "cost": 92,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Mount Titlis",
+            "city": "Engelberg"
+        }
+    },
+    {
+        "id": 73,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Nærøyfjord: Stunning UNESCO fjord cruise. Located in Gudvangen, Norway.",
+        "metadata": {
+            "cost": 45,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Nærøyfjord",
+            "city": "Gudvangen"
+        }
+    },
+    {
+        "id": 74,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Vigeland Park: World's largest sculpture park. Located in Oslo, Norway.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Vigeland Park",
+            "city": "Oslo"
+        }
+    },
+    {
+        "id": 75,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Flåm Railway: Incredible scenic mountain rail. Located in Flåm, Norway.",
+        "metadata": {
+            "cost": 65,
+            "duration": 3,
+            "type": "luxury",
+            "name": "Flåm Railway",
+            "city": "Flåm"
+        }
+    },
+    {
+        "id": 76,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Munch Museum: Art museum dedicated to Edvard Munch. Located in Oslo, Norway.",
+        "metadata": {
+            "cost": 18,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Munch Museum",
+            "city": "Oslo"
+        }
+    },
+    {
+        "id": 77,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Bryggen: Historic Hanseatic wharf. Located in Bergen, Norway.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Bryggen",
+            "city": "Bergen"
+        }
+    },
+    {
+        "id": 78,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Preikestolen: Famous 'Pulpit Rock' cliff. Located in Stavanger, Norway.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Preikestolen",
+            "city": "Stavanger"
+        }
+    },
+    {
+        "id": 79,
+        "country": "Norway",
+        "category": "Attraction",
+        "content": "Oslo Opera House: Modern marble architectural marvel guided tour. Located in Oslo, Norway.",
+        "metadata": {
+            "cost": 10,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Oslo Opera House",
+            "city": "Oslo"
+        }
+    },
+    {
+        "id": 80,
+        "country": "Sweden",
+        "category": "Attraction",
+        "content": "Vasa Museum: 17th-century warship museum. Located in Stockholm, Sweden.",
+        "metadata": {
+            "cost": 18,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Vasa Museum",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "id": 81,
+        "country": "Sweden",
+        "category": "Attraction",
+        "content": "Gamla Stan: Stockholm's historic old town. Located in Stockholm, Sweden.",
+        "metadata": {
+            "cost": 0,
+            "duration": 3,
+            "type": "cultural",
+            "name": "Gamla Stan",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "id": 82,
+        "country": "Sweden",
+        "category": "Attraction",
+        "content": "Skansen: World's oldest open-air museum. Located in Stockholm, Sweden.",
+        "metadata": {
+            "cost": 22,
+            "duration": 3,
+            "type": "family",
+            "name": "Skansen",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "id": 83,
+        "country": "Sweden",
+        "category": "Attraction",
+        "content": "ABBA The Museum: Interactive pop music museum. Located in Stockholm, Sweden.",
+        "metadata": {
+            "cost": 25,
+            "duration": 3,
+            "type": "cultural",
+            "name": "ABBA The Museum",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "id": 84,
+        "country": "Sweden",
+        "category": "Attraction",
+        "content": "Stockholm Archipelago: Boat tour through 30,000 islands. Located in Stockholm, Sweden.",
+        "metadata": {
+            "cost": 35,
+            "duration": 3,
+            "type": "adventure",
+            "name": "Stockholm Archipelago",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "id": 85,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Paris: Boulangerie breakfast costs around €8; Casual bistro lunch €20; Seated dinner €40.",
+        "metadata": {
+            "type": "dining",
+            "city": "Paris"
+        }
+    },
+    {
+        "id": 86,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Rome: Trattoria pasta bowl €12-15; Gelato €3-5; Pizza al taglio €5.",
+        "metadata": {
+            "type": "dining",
+            "city": "Rome"
+        }
+    },
+    {
+        "id": 87,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Barcelona: Tapas dinner €15-20; Set lunch (Menu del Dia) €12-15; Coffee €2.",
+        "metadata": {
+            "type": "dining",
+            "city": "Barcelona"
+        }
+    },
+    {
+        "id": 88,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Berlin: Currywurst €5; Döner kebab €7; Beer in pub €4.",
+        "metadata": {
+            "type": "dining",
+            "city": "Berlin"
+        }
+    },
+    {
+        "id": 89,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Amsterdam: Pancakes €12; Herring snack €5; Indonesian Rijsttafel €30.",
+        "metadata": {
+            "type": "dining",
+            "city": "Amsterdam"
+        }
+    },
+    {
+        "id": 90,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Zurich: Basic lunch €25; Cheese fondue €35; Coffee €6.",
+        "metadata": {
+            "type": "dining",
+            "city": "Zurich"
+        }
+    },
+    {
+        "id": 91,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Madrid: Churros con chocolate €5; Calamari sandwich €8; Dinner at Mercado de San Miguel €25.",
+        "metadata": {
+            "type": "dining",
+            "city": "Madrid"
+        }
+    },
+    {
+        "id": 92,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Munich: Pretzel €2; Beer garden meal €15; Schnitzel €18.",
+        "metadata": {
+            "type": "dining",
+            "city": "Munich"
+        }
+    },
+    {
+        "id": 93,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Geneva: Swiss chocolate box €15; Lakefront lunch €30; Dinner €50.",
+        "metadata": {
+            "type": "dining",
+            "city": "Geneva"
+        }
+    },
+    {
+        "id": 94,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Oslo: Salmon dish €30; Local brown cheese snack €5; Coffee €7.",
+        "metadata": {
+            "type": "dining",
+            "city": "Oslo"
+        }
+    },
+    {
+        "id": 95,
+        "country": "Multi",
+        "category": "Cost",
+        "content": "Dining in Bergen: Fish soup €18; Reindeer burger €25; Local cider €12.",
+        "metadata": {
+            "type": "dining",
+            "city": "Bergen"
+        }
+    },
+    {
+        "id": 96,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Barcelona to Madrid: AVE High-speed train: €40-90, Duration: 2.5 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Barcelona to Madrid"
+        }
+    },
+    {
+        "id": 97,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Paris to Lyon: TGV train: €30-70, Duration: 2 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Paris to Lyon"
+        }
+    },
+    {
+        "id": 98,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Rome to Florence: Trenitalia: €20-50, Duration: 1.5 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Rome to Florence"
+        }
+    },
+    {
+        "id": 99,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Amsterdam to Rotterdam: Intercity train: €15, Duration: 40 minutes.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Amsterdam to Rotterdam"
+        }
+    },
+    {
+        "id": 100,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Berlin to Munich: ICE train: €45-120, Duration: 4 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Berlin to Munich"
+        }
+    },
+    {
+        "id": 101,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Zurich to Geneva: SBB train: €50-90, Duration: 2.8 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Zurich to Geneva"
+        }
+    },
+    {
+        "id": 102,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Paris to Versailles: RER C train: €4, Duration: 45 minutes.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Paris to Versailles"
+        }
+    },
+    {
+        "id": 103,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Madrid to Seville: AVE train: €35-75, Duration: 2.5 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Madrid to Seville"
+        }
+    },
+    {
+        "id": 104,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Milan to Venice: Frecciarossa train: €25-60, Duration: 2.2 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Milan to Venice"
+        }
+    },
+    {
+        "id": 105,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Amsterdam to The Hague: NS train: €12, Duration: 50 minutes.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Amsterdam to The Hague"
+        }
+    },
+    {
+        "id": 106,
+        "country": "Multi",
+        "category": "Transport",
+        "content": "Transport from Oslo to Bergen: Bergensbanen: €70-120, Duration: 7 hours.",
+        "metadata": {
+            "type": "intercity",
+            "route": "Oslo to Bergen"
+        }
+    },
+    {
+        "id": 107,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel ibis Paris Centre in Paris: A budget stay for solo. Features: central, wifi.",
+        "metadata": {
+            "name": "ibis Paris Centre",
+            "city": "Paris",
+            "type": "solo",
+            "price_range": "budget",
+            "avg_price": 85,
+            "rating": 4.1
+        }
+    },
+    {
+        "id": 108,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel Hotel de l'Avenir in Paris: A budget stay for family. Features: family-rooms, metro.",
+        "metadata": {
+            "name": "Hotel de l'Avenir",
+            "city": "Paris",
+            "type": "family",
+            "price_range": "budget",
+            "avg_price": 95,
+            "rating": 4.2
+        }
+    },
+    {
+        "id": 109,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel Novotel Paris Les Halles in Paris: A mid stay for family. Features: spacious, central.",
+        "metadata": {
+            "name": "Novotel Paris Les Halles",
+            "city": "Paris",
+            "type": "family",
+            "price_range": "mid",
+            "avg_price": 220,
+            "rating": 4.5
+        }
+    },
+    {
+        "id": 110,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel Pullman Paris Tour Eiffel in Paris: A mid stay for couple. Features: view, modern.",
+        "metadata": {
+            "name": "Pullman Paris Tour Eiffel",
+            "city": "Paris",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 280,
+            "rating": 4.6
+        }
+    },
+    {
+        "id": 111,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel Shangri-La Paris in Paris: A luxury stay for couple. Features: palace, luxury.",
+        "metadata": {
+            "name": "Shangri-La Paris",
+            "city": "Paris",
+            "type": "couple",
+            "price_range": "luxury",
+            "avg_price": 1200,
+            "rating": 4.9
+        }
+    },
+    {
+        "id": 112,
+        "country": "France",
+        "category": "Hotel",
+        "content": "Hotel The Ritz Paris in Paris: A luxury stay for group. Features: iconic, service.",
+        "metadata": {
+            "name": "The Ritz Paris",
+            "city": "Paris",
+            "type": "group",
+            "price_range": "luxury",
+            "avg_price": 1500,
+            "rating": 5.0
+        }
+    },
+    {
+        "id": 113,
+        "country": "Italy",
+        "category": "Hotel",
+        "content": "Hotel Hotel Trastevere in Rome: A budget stay for solo. Features: vibrant, authentic.",
+        "metadata": {
+            "name": "Hotel Trastevere",
+            "city": "Rome",
+            "type": "solo",
+            "price_range": "budget",
+            "avg_price": 70,
+            "rating": 4.3
+        }
+    },
+    {
+        "id": 114,
+        "country": "Italy",
+        "category": "Hotel",
+        "content": "Hotel Generator Rome in Rome: A budget stay for group. Features: social, modern.",
+        "metadata": {
+            "name": "Generator Rome",
+            "city": "Rome",
+            "type": "group",
+            "price_range": "budget",
+            "avg_price": 60,
+            "rating": 4.0
+        }
+    },
+    {
+        "id": 115,
+        "country": "Italy",
+        "category": "Hotel",
+        "content": "Hotel Hotel Indigo Rome in Rome: A mid stay for couple. Features: design, boutique.",
+        "metadata": {
+            "name": "Hotel Indigo Rome",
+            "city": "Rome",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 240,
+            "rating": 4.7
+        }
+    },
+    {
+        "id": 116,
+        "country": "Italy",
+        "category": "Hotel",
+        "content": "Hotel Hotel Quirinale in Rome: A mid stay for family. Features: classic, theatre.",
+        "metadata": {
+            "name": "Hotel Quirinale",
+            "city": "Rome",
+            "type": "family",
+            "price_range": "mid",
+            "avg_price": 190,
+            "rating": 4.4
+        }
+    },
+    {
+        "id": 117,
+        "country": "Italy",
+        "category": "Hotel",
+        "content": "Hotel Hotel Hassler in Rome: A luxury stay for luxury. Features: spanish-steps, exclusive.",
+        "metadata": {
+            "name": "Hotel Hassler",
+            "city": "Rome",
+            "type": "luxury",
+            "price_range": "luxury",
+            "avg_price": 850,
+            "rating": 4.9
+        }
+    },
+    {
+        "id": 118,
+        "country": "Netherlands",
+        "category": "Hotel",
+        "content": "Hotel Hans Brinker Hostel in Amsterdam: A budget stay for group. Features: central, party.",
+        "metadata": {
+            "name": "Hans Brinker Hostel",
+            "city": "Amsterdam",
+            "type": "group",
+            "price_range": "budget",
+            "avg_price": 45,
+            "rating": 3.8
+        }
+    },
+    {
+        "id": 119,
+        "country": "Netherlands",
+        "category": "Hotel",
+        "content": "Hotel CityHub Amsterdam in Amsterdam: A budget stay for solo. Features: tech, unique.",
+        "metadata": {
+            "name": "CityHub Amsterdam",
+            "city": "Amsterdam",
+            "type": "solo",
+            "price_range": "budget",
+            "avg_price": 80,
+            "rating": 4.4
+        }
+    },
+    {
+        "id": 120,
+        "country": "Netherlands",
+        "category": "Hotel",
+        "content": "Hotel CitizenM Amstel in Amsterdam: A mid stay for couple. Features: modern, smart.",
+        "metadata": {
+            "name": "CitizenM Amstel",
+            "city": "Amsterdam",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 180,
+            "rating": 4.6
+        }
+    },
+    {
+        "id": 121,
+        "country": "Netherlands",
+        "category": "Hotel",
+        "content": "Hotel Pulitzer Amsterdam in Amsterdam: A luxury stay for family. Features: canal-house, historic.",
+        "metadata": {
+            "name": "Pulitzer Amsterdam",
+            "city": "Amsterdam",
+            "type": "family",
+            "price_range": "luxury",
+            "avg_price": 600,
+            "rating": 4.8
+        }
+    },
+    {
+        "id": 122,
+        "country": "Germany",
+        "category": "Hotel",
+        "content": "Hotel Meininger Berlin in Berlin: A budget stay for family. Features: kitchen, family-friendly.",
+        "metadata": {
+            "name": "Meininger Berlin",
+            "city": "Berlin",
+            "type": "family",
+            "price_range": "budget",
+            "avg_price": 65,
+            "rating": 4.1
+        }
+    },
+    {
+        "id": 123,
+        "country": "Germany",
+        "category": "Hotel",
+        "content": "Hotel 25hours Hotel Bikini in Berlin: A mid stay for couple. Features: zoo-view, quirky.",
+        "metadata": {
+            "name": "25hours Hotel Bikini",
+            "city": "Berlin",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 170,
+            "rating": 4.6
+        }
+    },
+    {
+        "id": 124,
+        "country": "Germany",
+        "category": "Hotel",
+        "content": "Hotel Hotel Adlon Kempinski in Berlin: A luxury stay for luxury. Features: historic, grand.",
+        "metadata": {
+            "name": "Hotel Adlon Kempinski",
+            "city": "Berlin",
+            "type": "luxury",
+            "price_range": "luxury",
+            "avg_price": 550,
+            "rating": 4.9
+        }
+    },
+    {
+        "id": 125,
+        "country": "Switzerland",
+        "category": "Hotel",
+        "content": "Hotel Oldtown Hostel Otter in Zurich: A budget stay for solo. Features: central, bar.",
+        "metadata": {
+            "name": "Oldtown Hostel Otter",
+            "city": "Zurich",
+            "type": "solo",
+            "price_range": "budget",
+            "avg_price": 90,
+            "rating": 4.2
+        }
+    },
+    {
+        "id": 126,
+        "country": "Switzerland",
+        "category": "Hotel",
+        "content": "Hotel 25hours Hotel Langstrasse in Zurich: A mid stay for couple. Features: vibrant, urban.",
+        "metadata": {
+            "name": "25hours Hotel Langstrasse",
+            "city": "Zurich",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 280,
+            "rating": 4.5
+        }
+    },
+    {
+        "id": 127,
+        "country": "Switzerland",
+        "category": "Hotel",
+        "content": "Hotel The Dolder Grand in Zurich: A luxury stay for luxury. Features: castle, spa.",
+        "metadata": {
+            "name": "The Dolder Grand",
+            "city": "Zurich",
+            "type": "luxury",
+            "price_range": "luxury",
+            "avg_price": 900,
+            "rating": 4.9
+        }
+    },
+    {
+        "id": 128,
+        "country": "Norway",
+        "category": "Hotel",
+        "content": "Hotel Comfort Hotel Xpress in Oslo: A budget stay for solo. Features: central, urban.",
+        "metadata": {
+            "name": "Comfort Hotel Xpress",
+            "city": "Oslo",
+            "type": "solo",
+            "price_range": "budget",
+            "avg_price": 95,
+            "rating": 4.1
+        }
+    },
+    {
+        "id": 129,
+        "country": "Norway",
+        "category": "Hotel",
+        "content": "Hotel The Thief in Oslo: A luxury stay for couple. Features: art, waterfront.",
+        "metadata": {
+            "name": "The Thief",
+            "city": "Oslo",
+            "type": "couple",
+            "price_range": "luxury",
+            "avg_price": 450,
+            "rating": 4.8
+        }
+    },
+    {
+        "id": 130,
+        "country": "Norway",
+        "category": "Hotel",
+        "content": "Hotel Clarion Hotel The Hub in Oslo: A mid stay for family. Features: pool, rooftop.",
+        "metadata": {
+            "name": "Clarion Hotel The Hub",
+            "city": "Oslo",
+            "type": "family",
+            "price_range": "mid",
+            "avg_price": 220,
+            "rating": 4.4
+        }
+    },
+    {
+        "id": 131,
+        "country": "Norway",
+        "category": "Hotel",
+        "content": "Hotel Gudvangen Fjordtell in Gudvangen: A mid stay for couple. Features: fjord-view, viking-theme.",
+        "metadata": {
+            "name": "Gudvangen Fjordtell",
+            "city": "Gudvangen",
+            "type": "couple",
+            "price_range": "mid",
+            "avg_price": 180,
+            "rating": 4.5
+        }
+    },
+    {
+        "id": 132,
+        "country": "Sweden",
+        "category": "Hotel",
+        "content": "Hotel Generator Stockholm in Stockholm: A budget stay for group. Features: central, social.",
+        "metadata": {
+            "name": "Generator Stockholm",
+            "city": "Stockholm",
+            "type": "group",
+            "price_range": "budget",
+            "avg_price": 55,
+            "rating": 4.2
+        }
+    },
+    {
+        "id": 133,
+        "country": "Sweden",
+        "category": "Hotel",
+        "content": "Hotel Berns Hotel in Stockholm: A luxury stay for couple. Features: historic, nightlife.",
+        "metadata": {
+            "name": "Berns Hotel",
+            "city": "Stockholm",
+            "type": "couple",
+            "price_range": "luxury",
+            "avg_price": 380,
+            "rating": 4.7
+        }
+    },
+    {
+        "id": 134,
+        "country": "Sweden",
+        "category": "Hotel",
+        "content": "Hotel Hilton Slussen in Stockholm: A mid stay for family. Features: view, central.",
+        "metadata": {
+            "name": "Hilton Slussen",
+            "city": "Stockholm",
+            "type": "family",
+            "price_range": "mid",
+            "avg_price": 250,
+            "rating": 4.5
+        }
+    },
+    {
+        "id": 135,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Paris to Amsterdam via train. Cost: €40, Duration: 3.5h.",
+        "metadata": {
+            "from": "Paris",
+            "to": "Amsterdam",
+            "mode": "train",
+            "cost": 40,
+            "hours": 3.5,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 136,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Paris to Amsterdam via flight. Cost: €85, Duration: 1.2h.",
+        "metadata": {
+            "from": "Paris",
+            "to": "Amsterdam",
+            "mode": "flight",
+            "cost": 85,
+            "hours": 1.2,
+            "type": "fast"
+        }
+    },
+    {
+        "id": 137,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Rome to Milan via train. Cost: €45, Duration: 3.0h.",
+        "metadata": {
+            "from": "Rome",
+            "to": "Milan",
+            "mode": "train",
+            "cost": 45,
+            "hours": 3.0,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 138,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Rome to Milan via flight. Cost: €75, Duration: 1.0h.",
+        "metadata": {
+            "from": "Rome",
+            "to": "Milan",
+            "mode": "flight",
+            "cost": 75,
+            "hours": 1.0,
+            "type": "fast"
+        }
+    },
+    {
+        "id": 139,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Berlin to Munich via train. Cost: €35, Duration: 4.0h.",
+        "metadata": {
+            "from": "Berlin",
+            "to": "Munich",
+            "mode": "train",
+            "cost": 35,
+            "hours": 4.0,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 140,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Madrid to Barcelona via train. Cost: €30, Duration: 2.5h.",
+        "metadata": {
+            "from": "Madrid",
+            "to": "Barcelona",
+            "mode": "train",
+            "cost": 30,
+            "hours": 2.5,
+            "type": "fast"
+        }
+    },
+    {
+        "id": 141,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Zurich to Geneva via train. Cost: €60, Duration: 2.8h.",
+        "metadata": {
+            "from": "Zurich",
+            "to": "Geneva",
+            "mode": "train",
+            "cost": 60,
+            "hours": 2.8,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 142,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Oslo to Gudvangen via train. Cost: €30, Duration: 3.0h.",
+        "metadata": {
+            "from": "Oslo",
+            "to": "Gudvangen",
+            "mode": "train",
+            "cost": 30,
+            "hours": 3.0,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 143,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Oslo to Bergen via train. Cost: €45, Duration: 6.5h.",
+        "metadata": {
+            "from": "Oslo",
+            "to": "Bergen",
+            "mode": "train",
+            "cost": 45,
+            "hours": 6.5,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 144,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Stockholm to Oslo via train. Cost: €60, Duration: 5.5h.",
+        "metadata": {
+            "from": "Stockholm",
+            "to": "Oslo",
+            "mode": "train",
+            "cost": 60,
+            "hours": 5.5,
+            "type": "mid"
+        }
+    },
+    {
+        "id": 145,
+        "country": "Multi",
+        "category": "Route",
+        "content": "Travel from Stockholm to Copenhagen via train. Cost: €50, Duration: 5.0h.",
+        "metadata": {
+            "from": "Stockholm",
+            "to": "Copenhagen",
+            "mode": "train",
+            "cost": 50,
+            "hours": 5.0,
+            "type": "mid"
+        }
+    }
+]

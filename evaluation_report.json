@@ -1,0 +1,29 @@
+{
+    "dataset_experiment": {
+        "20_docs": {
+            "itinerary_quality": "High",
+            "docs_found": 5,
+            "time": 0.20649003982543945
+        },
+        "100_docs": {
+            "itinerary_quality": "High",
+            "docs_found": 6,
+            "time": 0.018399953842163086
+        },
+        "150_docs": {
+            "itinerary_quality": "High",
+            "docs_found": 6,
+            "time": 0.014899015426635742
+        }
+    },
+    "constraint_experiment": {
+        "with_constraint": "luxury",
+        "without_constraint": "default (cultural)",
+        "impact": "Constraint agent allows personalized experience vs generic plans."
+    },
+    "country_experiment": {
+        "single_country": 1,
+        "multi_country": 2,
+        "reasoning_depth": "Successfully identified multiple countries and adjusted budget constraints across borders."
+    }
+}

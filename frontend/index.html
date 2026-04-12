@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroPlan AI | Multi-Agent Travel Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            padding: 2rem;
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .chat-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        #chat-messages {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            line-height: 1.5;
+            transition: all 0.3s ease;
+        }
+
+        .message.user {
+            align-self: flex-end;
+            background: var(--primary);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.ai {
+            align-self: flex-start;
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-bottom-left-radius: 4px;
+        }
+
+        .input-area {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.2);
+            display: flex;
+            gap: 1rem;
+        }
+
+        input {
+            flex: 1;
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1rem;
+            color: white;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: var(--primary);
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 0 1.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        .details-section {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 1.5rem;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #818cf8;
+        }
+
+        .itinerary-day {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .itinerary-day:last-child {
+            border-bottom: none;
+        }
+
+        .day-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #c084fc;
+        }
+
+        .day-slot {
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+            color: var(--text-muted);
+        }
+
+        .cost-badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.2);
+            color: #10b981;
+            padding: 0.5rem 1rem;
+            border-radius: 99px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .loader {
+            display: none;
+            width: 24px;
+            height: 24px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            main {
+                flex-direction: column;
+            }
+
+            .details-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>EuroPlan AI</h1>
+        <p>Research-Grade Multi-Agent Travel Reasoning System</p>
+    </header>
+
+    <main>
+        <section class="chat-section">
+            <div id="chat-messages">
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Describe your dream European trip...">
+                <button id="send-btn">
+                    <span id="btn-text">Send</span>
+                    <div class="loader" id="loader"></div>
+                </button>
+            </div>
+        </section>
+
+        <aside class="details-section">
+            <div class="card" id="itinerary-card" style="display: none;">
+                <h2><i class="fas fa-map-marked-alt"></i> Selected Itinerary</h2>
+                <div id="itinerary-content"></div>
+            </div>
+
+            <div class="card" id="budget-card" style="display: none;">
+                <h2><i class="fas fa-wallet"></i> Estimated Budget</h2>
+                <div class="cost-badge" id="total-cost">€0</div>
+                <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Includes attractions and
+                    estimated daily expenses.</p>
+            </div>
+
+            <div class="card" id="explanation-card" style="display: none;">
+                <h2><i class="fas fa-brain"></i> Agent Justification</h2>
+                <p id="justification-text" style="font-size: 0.95rem; line-height: 1.6;"></p>
+            </div>
+        </aside>
+    </main>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendBtn = document.getElementById('send-btn');
+        const loader = document.getElementById('loader');
+        const btnText = document.getElementById('btn-text');
+
+        const itineraryCard = document.getElementById('itinerary-card');
+        const itineraryContent = document.getElementById('itinerary-content');
+        const budgetCard = document.getElementById('budget-card');
+        const totalCost = document.getElementById('total-cost');
+        const explanationCard = document.getElementById('explanation-card');
+        const justificationText = document.getElementById('justification-text');
+
+        const sessionId = Math.random().toString(36).substring(7);
+
+        async function sendMessage() {
+            const query = userInput.value.trim();
+            if (!query) return;
+
+            // Add user message to chat
+            addMessage(query, 'user');
+            userInput.value = '';
+
+            // Show loading
+            sendBtn.disabled = true;
+            btnText.style.display = 'none';
+            loader.style.display = 'block';
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/plan', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query, session_id: sessionId })
+                });
+
+                const data = await response.json();
+                console.log("DEBUG RESPONSE:", data);
+
+                if (data.error || !data.header) {
+                    showStatus(data.debug?.llm_error || data.error || 'No model response returned.');
+                } else {
+                    renderResponse(data);
+                }
+            } catch (error) {
+                showStatus("Error connecting to server. Please ensure the backend is running.");
+            } finally {
+                sendBtn.disabled = false;
+                btnText.style.display = 'block';
+                loader.style.display = 'none';
+            }
+        }
+
+        function addMessage(text, sender) {
+            const div = document.createElement('div');
+            div.className = `message ${sender}`;
+            div.innerHTML = text;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function renderResponse(data) {
+            // Escape header for TTS button
+            const cleanHeader = (data.header || "").replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/\n/g, ' ');
+
+            // Update chat with the primary message
+            const aiMessageHTML = `
+                ${data.header}
+                <button onclick="speakText('${cleanHeader}')" style="margin-left: 0.5rem; background: none; border: none; color: var(--primary); cursor: pointer;" title="Read Aloud">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            `;
+            addMessage(aiMessageHTML, 'ai');
+
+            if (data.session_summary) {
+                const summaryDiv = document.createElement('div');
+                summaryDiv.style = "background: rgba(129, 140, 248, 0.2); border: 1px solid var(--glass-border); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem; color: #818cf8; margin-top: 0.5rem; display: inline-block;";
+                summaryDiv.innerHTML = `<i class="fas fa-brain"></i> ${data.session_summary}`;
+                chatMessages.appendChild(summaryDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // 1. Reset card visibility based on data
+            const hasItinerary = data.itinerary && data.itinerary.length > 0;
+            const hasBudget = data.budget_breakdown && data.budget_breakdown.total > 0;
+            const hasJustification = (data.justification && data.justification !== "Logic-ready justification.") || data.debug;
+
+            itineraryCard.style.display = (data.valid_plan && hasItinerary) ? 'block' : 'none';
+            budgetCard.style.display = (data.valid_plan && hasBudget) ? 'block' : 'none';
+            explanationCard.style.display = hasJustification ? 'block' : 'none';
+
+            if (data.valid_plan === false && !hasItinerary) return;
+
+            // 2. TRAVEL PLAN: Render full details
+            if (hasItinerary) {
+                itineraryContent.innerHTML = '';
+
+                if (data.image_keyword) {
+                    itineraryContent.innerHTML += `<img src="https://loremflickr.com/800/400/${encodeURIComponent(data.image_keyword)}" alt="${data.image_keyword}" style="width:100%; height:150px; object-fit:cover; border-radius:12px; margin-bottom:1rem;" onerror="this.style.display='none'">`;
+                }
+
+                data.itinerary.forEach(day => {
+                    const dayDiv = document.createElement('div');
+                    dayDiv.className = 'itinerary-day';
+
+                    let activityHtml = '';
+                    if (day.is_travel_day && day.travel_info) {
+                        activityHtml += `
+                            <div class="day-slot" style="color: #818cf8; border-bottom: 1px solid var(--glass-border); margin-bottom: 1rem; padding-bottom: 0.8rem;">
+                                <i class="fas fa-route"></i> <b>Intercity:</b> ${day.travel_info.route} (${day.travel_info.duration}h)
+                            </div>
+                        `;
+                    }
+
+                    (day.activities || []).forEach((act) => {
+                        const icon = act.time === 'Morning' ? 'sun' : (act.time === 'Afternoon' ? 'cloud-sun' : 'moon');
+                        activityHtml += `<div class="day-slot"><i class="fas fa-${icon}"></i> <b>${act.time}:</b> ${act.name} (€${act.cost})</div>`;
+                    });
+
+                    const hotelName = (day.hotel && day.hotel.length > 0 && day.hotel[0].metadata)
+                        ? day.hotel[0].metadata.name
+                        : (day.hotel && day.hotel.length > 0 ? day.hotel[0] : null);
+
+                    dayDiv.innerHTML = `
+                        <div class="day-title">Day ${day.day}: ${day.city}, ${day.country} ${day.is_travel_day ? '<span style="font-size:0.75rem; color:#818cf8;">(Travel Day)</span>' : ''}</div>
+                        ${activityHtml}
+                        <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-direction: column;">
+                            <div style="font-size: 0.9rem; color: #818cf8; background: rgba(129, 140, 248, 0.1); padding: 0.8rem; border-radius: 8px;">
+                                <i class="fas fa-utensils"></i> <b>Dining:</b> ${day.dining || 'Local restaurant'}
+                            </div>
+                            ${hotelName ? `
+                            <div style="font-size: 0.9rem; color: #10b981; background: rgba(16, 185, 129, 0.1); padding: 0.8rem; border-radius: 8px;">
+                                <i class="fas fa-hotel"></i> <b>Stay:</b> ${hotelName}
+                            </div>` : ''}
+                        </div>
+                    `;
+                    itineraryContent.appendChild(dayDiv);
+                });
+            }
+
+            // Render Budget
+            if (hasBudget) {
+                const budget = data.budget_breakdown;
+                budgetCard.innerHTML = `
+                    <h2><i class="fas fa-wallet"></i> Production Budget</h2>
+                    <div class="cost-badge">€${budget.total}</div>
+                    <div style="margin-top: 1rem; font-size: 0.95rem; display: flex; flex-direction: column; gap: 0.8rem;">
+                        <div style="display: flex; justify-content: space-between;"><span>Attractions:</span> <b>€${budget.attractions}</b></div>
+                        <div style="display: flex; justify-content: space-between;"><span>Accommodation:</span> <b>€${budget.stays || 0}</b></div>
+                        <div style="display: flex; justify-content: space-between;"><span>Intercity Travel:</span> <b>€${budget.transport || 0}</b></div>
+                        <div style="display: flex; justify-content: space-between;"><span>Maintenance (Food):</span> <b>€${Math.floor(budget.food || 0)}</b></div>
+                    </div>
+                `;
+            }
+
+            // Render Justification
+            if (hasJustification) {
+                justificationText.innerHTML = `
+                    <div style="margin-bottom: 0.8rem; color: #818cf8; font-weight: 600; font-size: 1.1rem;">Expert Reasoning:</div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-light);">${data.justification || 'Logic-ready justification.'}</p>
+                    ${data.debug ? `
+                    <div style="margin-top: 1.2rem; display: flex; gap: 1rem; font-size: 0.75rem; color: var(--text-muted); border-top: 1px solid var(--glass-border); padding-top: 0.8rem;">
+                        <span><i class="fas fa-database"></i> RAG Docs: ${data.retrieved_docs_count || 0}</span>
+                    </div>` : ''}
+                `;
+            }
+        }
+
+        function showStatus(message) {
+            explanationCard.style.display = 'block';
+            justificationText.textContent = message;
+            itineraryCard.style.display = 'none';
+            budgetCard.style.display = 'none';
+        }
+
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                // Cancel any ongoing speech
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+
+                // Enhance settings for a more natural voice if possible
+                utterance.rate = 1.0;
+                utterance.pitch = 1.0;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert("Text-to-speech not supported in this browser.");
+            }
+        }
+
+        sendBtn.addEventListener('click', sendMessage);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+
+</html>
